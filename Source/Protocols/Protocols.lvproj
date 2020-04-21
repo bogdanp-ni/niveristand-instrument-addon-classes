@@ -29,6 +29,8 @@
 			</Item>
 			<Item Name="Constants.vi" Type="VI" URL="../Tests/Constants.vi"/>
 		</Item>
+		<Item Name="Find All ProjectItems.vi" Type="VI" URL="../Publisher/Find All ProjectItems.vi"/>
+		<Item Name="Pre-Build Action.vi" Type="VI" URL="../Publisher/Pre-Build Action.vi"/>
 		<Item Name="Protocols.lvlib" Type="Library" URL="../Protocols.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -162,6 +164,7 @@
 				<Item Name="Get Array Element TDEnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Array Element TDEnum__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get Header from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Header from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Last PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Last PString__ogtk__jki_vi_tester.vi"/>
@@ -405,12 +408,13 @@
 				<Property Name="Bld_localDestDir" Type="Path">..</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{553854C3-560A-4C87-A5BD-43CBD915B5C4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
-				<Property Name="Bld_version.build" Type="Int">65</Property>
+				<Property Name="Bld_version.build" Type="Int">70</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Protocols.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Pharlap/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -418,7 +422,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3835E07C-B951-4050-B677-2C3DBC61BB06}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D04E790D-7CE1-4FB4-9283-7BE0D075A708}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Protocols.lvlib</Property>

@@ -28,4 +28,9 @@
 	<Item Name="VISA" Type="Folder">
 		<Item Name="VISA.lvclass" Type="LVClass" URL="../VISA/VISA.lvclass"/>
 	</Item>
+	<Item Name="YetAnotherProtocol" Type="Folder">
+		<Item Name="YetAnotherProtocol.lvclass" Type="LVClass" URL="../YetAnotherProtocol.lvclass"/>
+	</Item>
+	<Item Name="NewProtocol.lvclass" Type="LVClass" URL="../NewProtocol/NewProtocol.lvclass"/>
+	<Item Name="Protocols List.ctl" Type="VI" URL="../Publisher/Protocols List.ctl"/>
 </Library>
