@@ -10,6 +10,11 @@
 		<Item Name="Format AK Command.vi" Type="VI" URL="../AK/Format AK Command.vi"/>
 		<Item Name="Format AK Response.vi" Type="VI" URL="../AK/Format AK Response.vi"/>
 	</Item>
+	<Item Name="Generated" Type="Folder">
+		<Item Name="RS_wrapper.vi" Type="VI" URL="../Generated/RS_wrapper.vi"/>
+		<Item Name="TCP_wrapper.vi" Type="VI" URL="../Generated/TCP_wrapper.vi"/>
+		<Item Name="Wrapper.vi" Type="VI" URL="../Generated/Wrapper.vi"/>
+	</Item>
 	<Item Name="Protocol Parent" Type="Folder">
 		<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocol Parent/Protocol Parent.lvclass"/>
 	</Item>
