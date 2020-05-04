@@ -11,9 +11,8 @@
 		<Item Name="Format AK Response.vi" Type="VI" URL="../AK/Format AK Response.vi"/>
 	</Item>
 	<Item Name="Generated" Type="Folder">
-		<Item Name="RS_wrapper.vi" Type="VI" URL="../Generated/RS_wrapper.vi"/>
-		<Item Name="TCP_wrapper.vi" Type="VI" URL="../Generated/TCP_wrapper.vi"/>
-		<Item Name="Wrapper.vi" Type="VI" URL="../Generated/Wrapper.vi"/>
+		<Item Name="RS-xxx.vi" Type="VI" URL="../Generated/RS-xxx.vi"/>
+		<Item Name="TCP.vi" Type="VI" URL="../Generated/TCP.vi"/>
 	</Item>
 	<Item Name="Protocol Parent" Type="Folder">
 		<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocol Parent/Protocol Parent.lvclass"/>
@@ -33,9 +32,5 @@
 	<Item Name="VISA" Type="Folder">
 		<Item Name="VISA.lvclass" Type="LVClass" URL="../VISA/VISA.lvclass"/>
 	</Item>
-	<Item Name="YetAnotherProtocol" Type="Folder">
-		<Item Name="YetAnotherProtocol.lvclass" Type="LVClass" URL="../YetAnotherProtocol.lvclass"/>
-	</Item>
-	<Item Name="NewProtocol.lvclass" Type="LVClass" URL="../NewProtocol/NewProtocol.lvclass"/>
 	<Item Name="Protocols List.ctl" Type="VI" URL="../Publisher/Protocols List.ctl"/>
 </Library>
