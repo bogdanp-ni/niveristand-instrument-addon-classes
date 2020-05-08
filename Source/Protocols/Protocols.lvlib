@@ -10,10 +10,6 @@
 		<Item Name="Format AK Command.vi" Type="VI" URL="../AK/Format AK Command.vi"/>
 		<Item Name="Format AK Response.vi" Type="VI" URL="../AK/Format AK Response.vi"/>
 	</Item>
-	<Item Name="Generated" Type="Folder">
-		<Item Name="RS-xxx.vi" Type="VI" URL="../Generated/RS-xxx.vi"/>
-		<Item Name="TCP.vi" Type="VI" URL="../Generated/TCP.vi"/>
-	</Item>
 	<Item Name="Protocol Parent" Type="Folder">
 		<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocol Parent/Protocol Parent.lvclass"/>
 	</Item>
@@ -32,5 +28,6 @@
 	<Item Name="VISA" Type="Folder">
 		<Item Name="VISA.lvclass" Type="LVClass" URL="../VISA/VISA.lvclass"/>
 	</Item>
-	<Item Name="Protocols List.ctl" Type="VI" URL="../Publisher/Protocols List.ctl"/>
+	<Item Name="Protocols.ctl" Type="VI" URL="../Protocols.ctl"/>
+	<Item Name="Protocols.mnu" Type="Document" URL="../Protocols.mnu"/>
 </Library>
