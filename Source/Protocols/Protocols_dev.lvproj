@@ -29,8 +29,12 @@
 			</Item>
 			<Item Name="Constants.vi" Type="VI" URL="../Tests/Constants.vi"/>
 		</Item>
+		<Item Name="Control 3.ctl" Type="VI" URL="../Control 3.ctl"/>
+		<Item Name="Control 4.ctl" Type="VI" URL="../Control 4.ctl"/>
+		<Item Name="Control 5.ctl" Type="VI" URL="../Control 5.ctl"/>
 		<Item Name="Find All ProjectItems.vi" Type="VI" URL="../Publisher/Find All ProjectItems.vi"/>
 		<Item Name="Pre-Build Action.vi" Type="VI" URL="../Publisher/Pre-Build Action.vi"/>
+		<Item Name="Protocol Factory_poly.vi" Type="VI" URL="../Protocol Factory_poly.vi"/>
 		<Item Name="Protocols.lvlib" Type="Library" URL="../Protocols.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
