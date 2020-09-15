@@ -350,7 +350,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7FACBD24-DDDB-4791-AB0A-87AA43433AA9}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Windows/NI_AB_PROJECTNAME.lvlibp</Property>
